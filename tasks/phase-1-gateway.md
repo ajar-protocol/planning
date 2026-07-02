@@ -13,7 +13,7 @@ Single binary + Docker image; config file; proxies the origin site untouched by 
 Serve `/.well-known/ajar.json` from signed store; sequence/expiry handling; `Link` header advertisement. Depends: T0.4. **DoD:** conformance vectors for manifest retrieval/verification pass.
 
 ### T1.3 — Content negotiation layer
-Same-URL negotiation: `Accept: application/ajar+json | text/markdown` → semantic view; else pass-through. Chunked responses, stable IDs, per-chunk hashes, `Ajar-Content-Signature`, ETag + chunk-diff sync. Depends: T1.5/T1.6 output format. **DoD:** negotiation matrix tests pass; diff sync returns only changed chunks in test scenario.
+Same-URL negotiation: `Accept: application/ajar+json | text/markdown` → semantic view; else pass-through. Chunked responses, stable IDs, per-chunk hashes, `Ajar-Content-Signature`, ETag revalidation (304 on match, full view on mismatch; clients diff locally by chunk hash — spec §4). Depends: T1.5/T1.6 output format. **DoD:** negotiation matrix tests pass; diff-sync scenario shows a client identifying changed chunks from hashes alone.
 
 ### T1.4 — View index endpoint
 Machine sitemap: chunk map + hashes + change hints. **DoD:** a client can plan a full or incremental sync from the index alone.
