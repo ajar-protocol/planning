@@ -41,6 +41,12 @@ See [`BUILD-ORDER.md`](BUILD-ORDER.md) for the full dependency logic. Summary:
 5. ACTIONS→MONEY→DISCOVERY → per ROADMAP Phases 3–5 (ajar-index created at Phase 4)
 ```
 
+Current status: the public `ajar` repo is prepared as the initial v0.1 draft
+baseline with the spec, schemas, examples, registries, seed conformance
+vectors, licenses, and local validation checks. Phase 0 is not formally exited
+until the hosted validation workflow is active and the independent-reader
+manifest exercise is recorded.
+
 ## 6. What's in this repo
 
 | File | Purpose |

@@ -40,3 +40,10 @@ Move all ADRs in `DECISIONS.md` from `proposed` → `accepted`/`rejected` with r
 - [ ] Two independent readers hand-write a valid manifest from spec alone; schemas validate both.
 - [ ] MUST→vector coverage table complete.
 - [ ] CI green; ADRs closed.
+
+**Current status:** the `ajar` repo contains the initial v0.1 draft baseline:
+normative spec, schemas, registries, examples, seed conformance vectors, local
+validation tooling, project templates, security policy, conduct policy, and
+license files. Local readiness is green, but the Phase 0 gate remains open until
+hosted validation is enabled and the independent-reader manifest exercise is
+completed.
