@@ -43,9 +43,8 @@ See [`BUILD-ORDER.md`](BUILD-ORDER.md) for the full dependency logic. Summary:
 
 Current status: the public `ajar` repo is prepared as the initial v0.1 draft
 baseline with the spec, schemas, examples, registries, seed conformance
-vectors, licenses, and local validation checks. Phase 0 is not formally exited
-until the hosted validation workflow is active and the independent-reader
-manifest exercise is recorded.
+vectors, licenses, and hosted validation green. Phase 0 is not formally exited
+until the independent-reader manifest exercise is recorded.
 
 ## 6. What's in this repo
 
@@ -65,7 +64,7 @@ manifest exercise is recorded.
 
 ## 8. Where to go next
 
-New contributor: start with the [organization profile](https://github.com/ajar-protocol), then this repo. Implementer: read the public [`ajar`](https://github.com/ajar-protocol/ajar) spec repo; the executable `conformance` repo is next. Merchant or site owner: follow `ajar-gateway` and the platform plugin repos once they are published. Automation contributors should follow the organization `AGENTS.md` once they work in a published repo.
+New contributor: start with the [organization profile](https://github.com/ajar-protocol), then this repo. Implementer: read the public [`ajar`](https://github.com/ajar-protocol/ajar) spec repo; [`conformance`](https://github.com/ajar-protocol/conformance), [`ajar-gateway`](https://github.com/ajar-protocol/ajar-gateway), [`ajar-docs-mcp`](https://github.com/ajar-protocol/ajar-docs-mcp), and [`awesome-ajar`](https://github.com/ajar-protocol/awesome-ajar) are now part of the public launch set. Merchant or site owner: follow `ajar-gateway`; platform plugins publish later. Automation contributors should follow the organization `AGENTS.md`.
 
 ## License
 

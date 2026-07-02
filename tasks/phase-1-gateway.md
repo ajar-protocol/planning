@@ -1,6 +1,6 @@
 # Tasks — Phase 1: Gateway MVP (Read Layer, Profile CORE)
 
-*Goal: owner goes from ordinary website → agent-ready in under an hour, self-hosted. References: `docs/02-ARCHITECTURE.md` §3.1, `docs/06-OWNER-CONTROL.md`, `docs/07-CONVERSION-PIPELINE.md`. Language/stack per ADR-009 (Rust core recommended). Each task lists dependencies; parallelize freely otherwise.*
+*Goal: owner goes from ordinary website → agent-ready in under an hour, self-hosted. References: `docs/02-ARCHITECTURE.md` §3.1, `docs/05-OWNER-CONTROL.md`, `ajar-gateway/CONVERSION-PIPELINE.md`. Language/stack per ADR-009 (Rust core recommended). Each task lists dependencies; parallelize freely otherwise.*
 
 ---
 

@@ -7,9 +7,9 @@ Freeze what everyone implements: spec v0.1, schemas, golden examples, scope/erro
 Immediately after the gate: **`ajar-docs-mcp` v0.1**. Its data source freezes at the same time as the spec, and implementation guidance should be available before server code starts.
 
 **Current status:** `ajar` has the initial v0.1 draft baseline prepared and
-published. Local validation and Phase 0 readiness checks pass. The stage remains
-open until hosted validation is active and the independent-reader gate is
-recorded.
+published. Hosted validation is active and green; the ambiguity pass is
+complete. The only remaining Stage 1 gate is the independent-reader manifest
+exercise ([ajar issue #2](https://github.com/ajar-protocol/ajar/issues/2)).
 
 ## Stage 2 — SERVER (`ajar-gateway`)
 Supply side first: owners can open doors before any special client exists (curl with an Accept header is a valid consumer — that's the point of riding HTTP). Read layer only (Profile CORE): manifest, views, policy subset, console, signing. **Gate:** Phase-1 exit (10 diverse pilot sites, <1h owner effort, ≤20% token cost, conformance CORE green).

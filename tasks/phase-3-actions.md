@@ -1,6 +1,6 @@
 # Tasks — Phase 3: The Action Layer (Profile ACT)
 
-*Goal: safe operations end-to-end — typed actions, SIMULATE, two-phase commit, mandates, dual-signed receipts. References: spec §§5–8, `docs/04-SECURITY-MODEL.md` T4/T5/T8, `docs/06-OWNER-CONTROL.md` Axis 4. This phase gets an external security review before being declared stable.*
+*Goal: safe operations end-to-end — typed actions, SIMULATE, two-phase commit, mandates, dual-signed receipts. References: spec §§5–8, `docs/04-SECURITY-MODEL.md` T4/T5/T8, `docs/05-OWNER-CONTROL.md` Axis 4. This phase gets an external security review before being declared stable.*
 
 ---
 
