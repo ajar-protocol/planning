@@ -1,6 +1,6 @@
 # Tasks — Phase 0: Specification & Foundations
 
-*Goal: freeze Ajar v0.1-draft well enough to implement against. Reference: `ROADMAP.md` Phase 0 and the planned `docs/03-PROTOCOL-SPEC.md`. Every task is written with a concrete Definition of Done (DoD).*
+*Goal: freeze Ajar v0.1-draft well enough to implement against. Reference: `ROADMAP.md` Phase 0 and `ajar/docs/03-PROTOCOL-SPEC.md`. Every task is written with a concrete Definition of Done (DoD).*
 
 ---
 

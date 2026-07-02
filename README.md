@@ -1,6 +1,6 @@
 # planning - What Ajar Is Trying to Achieve
 
-This is the first public planning repo for Ajar Protocol. Nothing here is normative; the protocol rules will live in the planned `ajar` specification repo. This repo explains why Ajar exists, what order we build in, and what work is still open.
+This is the public planning repo for Ajar Protocol. Nothing here is normative; protocol rules live in the public [`ajar`](https://github.com/ajar-protocol/ajar) specification repo. This repo explains why Ajar exists, what order we build in, and what work is still open.
 
 ---
 
@@ -21,13 +21,13 @@ We measure success by adoption across independent implementations, partner produ
 
 - Spec + schemas + conformance are vendor-neutral and foundation-ready; our Gateway/Kernel are reference implementations others can use, extend, or independently implement.
 - Ajar is designed for adoption by any company or project. It should work with adjacent standards: MCP/WebMCP (action transport), ACP/UCP (commerce semantics), x402/AP2/MPP (settlement), A2A (agent-to-agent), Web Bot Auth (identity), UCAN (delegation). Details: [`POSITIONING.md`](POSITIONING.md).
-- Adoption is implementation-led: the Gateway provides a straightforward compliant path; `ajar-docs-mcp` will help AI coding agents implement Ajar directly from the spec; e-commerce plugins make the first vertical practical; demos publish measurable results.
+- Adoption is implementation-led: the Gateway provides a straightforward compliant path; `ajar-docs-mcp` will help developer tools implement Ajar directly from the spec; e-commerce plugins make the first vertical practical; demos publish measurable results.
 
 ## 4. The beachhead: e-commerce first (ADR-016)
 
 Commerce is where agent traffic is most urgent, structured data already exists, platforms concentrate distribution (WooCommerce, Shopify), the risk ladder is vivid (browse R0 → cart R1 → checkout R3), and adjacent protocols need exactly what Ajar adds (owner control, SIMULATE, generalized mandates). Sequence: WooCommerce plugin (open, self-hosted world) → Shopify app (hosted world) → published merchant case studies with token/cost/conversion numbers.
 
-Second vertical: documentation sites. Our own docs should be consumed protocol-first, and the planned `ajar-examples` repo will carry that demo. SaaS documentation sites are natural CORE-profile candidates.
+Second vertical: documentation sites. Our own docs should be consumed protocol-first, with seed examples already in `ajar` and richer demos planned for `ajar-examples`. SaaS documentation sites are natural CORE-profile candidates.
 
 ## 5. What we build, in order
 
@@ -59,7 +59,7 @@ See [`BUILD-ORDER.md`](BUILD-ORDER.md) for the full dependency logic. Summary:
 
 ## 8. Where to go next
 
-New contributor: start with the [organization profile](https://github.com/ajar-protocol), then this repo. Implementer: wait for the `ajar` spec and `conformance` repos. Merchant or site owner: follow `ajar-gateway` and the platform plugin repos once they are published. AI coding agents should follow the organization `AGENTS.md` once they work in a published repo.
+New contributor: start with the [organization profile](https://github.com/ajar-protocol), then this repo. Implementer: read the public [`ajar`](https://github.com/ajar-protocol/ajar) spec repo; the executable `conformance` repo is next. Merchant or site owner: follow `ajar-gateway` and the platform plugin repos once they are published. Automation contributors should follow the organization `AGENTS.md` once they work in a published repo.
 
 ## License
 

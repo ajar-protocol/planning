@@ -11,4 +11,4 @@ These six files are the master task breakdowns for Phases 0–5. They live here 
 | phase-4-index-payments.md | `ajar-index` (create the repo at Phase-4 start) + `ajar-gateway`/`ajar-kernel` |
 | phase-5-ecosystem.md | `planning` + respective repos |
 
-Path convention: references like `docs/03-PROTOCOL-SPEC.md` resolve inside the planned **`ajar` spec repo**; `CONVERSION-PIPELINE.md` will live in **`ajar-gateway`**; `ROADMAP.md` lives here in **`planning`**.
+Path convention: references like `docs/03-PROTOCOL-SPEC.md` resolve inside the public **`ajar` spec repo**; `CONVERSION-PIPELINE.md` will live in **`ajar-gateway`**; `ROADMAP.md` lives here in **`planning`**.
